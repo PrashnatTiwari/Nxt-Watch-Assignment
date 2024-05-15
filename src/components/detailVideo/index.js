@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import './index.css'
 
@@ -35,4 +36,4 @@ class DetailVideo extends Component {
   }
 }
 
-export default DetailVideo
+export default withRouter(DetailVideo)
