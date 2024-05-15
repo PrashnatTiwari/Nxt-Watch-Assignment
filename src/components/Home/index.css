@@ -1,0 +1,79 @@
+.dashboard-container {
+  width: 20vw;
+  height: 83vh;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  padding-top: 20px;
+}
+
+.dashboard-flex-container {
+  display: flex;
+  width: 10vw;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-icon {
+  height: 30px;
+  width: 20px;
+}
+
+.contact-paragraph {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.contact-method-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.contact-logo-container {
+  display: flex;
+  width: 7vw;
+  justify-content: space-between;
+}
+
+.contact-bottom-full-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
+  width: 10vw;
+  margin-bottom: 15px;
+}
+
+.unordered-all-videos-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70vw;
+  height: 85vh;
+}
+
+.home-main-container {
+  display: flex;
+  width: 100vw;
+}
+
+.not-found-videos {
+  height: 20px;
+  width: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 70%;
+}

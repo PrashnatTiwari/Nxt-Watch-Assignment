@@ -1,0 +1,55 @@
+.all-videos-list {
+  list-style-type: none;
+  width: 20vw;
+  height: 50vh;
+  cursor: pointer;
+}
+
+.profile-image-url {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.thumbnail-image-url {
+  height: 20vh;
+  width: 22vw;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.all-videos-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.all-videos-name {
+  font-size: 10px;
+  color: #64748b;
+  font-weight: bold;
+}
+
+.views-count {
+  font-size: 10px;
+  color: #64748b;
+  font-weight: bold;
+}
+
+.all-videos-published {
+  font-size: 10px;
+  color: #64748b;
+  font-weight: bold;
+}
+
+.view-publish-container {
+  display: flex;
+  width: 20vw;
+}
+
+.dot {
+  font-size: 10px;
+}
